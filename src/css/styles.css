@@ -1,0 +1,10 @@
+header {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: pink;
+    /* eventually replace the above background color with an image  */
+}
+
+nav a {
+    margin-left: 20px;
+}

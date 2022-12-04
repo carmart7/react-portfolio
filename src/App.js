@@ -1,25 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import Header from './components/Header';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // state that determines which portion of content is loaded at the bottom of the page
+  const [currentContent, setCurrentContent] = useState('about');
+
+  // We return the Welcome component and pass loggedIn and setLoggedIn as props.
+  return <Header currentContent={currentContent} setCurrentContent={setCurrentContent} />;
 }
 
 export default App;
