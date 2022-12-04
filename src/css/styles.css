@@ -8,3 +8,14 @@ header {
 nav a {
     margin-left: 20px;
 }
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+.avatar-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
