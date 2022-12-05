@@ -19,3 +19,30 @@ main {
     height: 250px;
     object-fit: cover;
 }
+
+.project-box {
+    background-color: cyan;
+    border: 2px solid black;
+    height: 200px;
+    margin-bottom: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-box h3 {
+    color: pink;
+    -webkit-text-stroke: 1px black;
+}
+
+.project-link {
+    text-decoration: none;
+}
+
+.fade-in {
+    opacity: 0%;
+}
+  
+.project-box:hover .fade-in {
+    opacity: 100%;
+    transition: opacity 1s;
+}
