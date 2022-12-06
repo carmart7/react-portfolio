@@ -4,6 +4,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
   // state that determines which portion of content is loaded at the bottom of the page
@@ -39,6 +40,7 @@ function App() {
         </main>
       </div>
       {/* include footer outside of wrapper eventually */}
+      <Footer />
     </>
   )
 }
