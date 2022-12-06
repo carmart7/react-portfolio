@@ -6,7 +6,7 @@ export default function About() {
     <>
       <h2>Carlos Martinez</h2>
       <img src={photo} alt='carlos' className='rounded-circle avatar-img'/>
-      <p>Some about me stuff I can fil out at a later date. Lorem ipsum dolor sit amet, consd ectetur adipiscing elit. Ut porttitor rutrum sapien, sit amet facilisis ipsum hendrerit id. Vestibulum non erat vel risus tincidunt iaculis non et tortor. Morbi dolor diam, egestas id est id, interdum maximus elit. Cras nec consectetur lectus. Morbi a dictum magna. Donec posuere pulvinar ante, vel lacinia ante rutrum vitae. Maecenas at metus rhoncus, pretium odio ac, pharetra lectus. Donec a orci ipsum. Suspendisse condimentum velit id elit venenatis pellentesque. Suspendisse diam elit, molestie nec maximus sed, elementum et velit.</p>
+      <p>Hey there, welcome to my portfolio site! As you could probably already tell my name is Carlos Martinez and I'm an aspiring Web Developer with a passion for video games. If you're looking to contact me feel free to use email me or send me a message on my LinkedIn found in the footer below and on the contact page.</p>
     </>
     );
 }
