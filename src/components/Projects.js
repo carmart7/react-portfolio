@@ -1,6 +1,7 @@
 import React from 'react';
-import Project from './Project'
-import tempPic from '../images/tempSelfPic.jpg'
+import Project from './Project';
+import soundsLikePic from '../images/soundsLike.png';
+import chatoramaPic from '../images/chatters.png';
 
 export default function Projects() {
     return (
@@ -8,12 +9,17 @@ export default function Projects() {
         {/* this will contain multiple single projects */}
 
         <Project
-          image={tempPic}
-          projectName='Sounds Like All Over the World'
+          image={soundsLikePic}
+          projectName="Sounds Like All Over the World"
           repoLink="https://github.com/mattjgatsby/artist-event-and-rec"
           siteLink="https://mattjgatsby.github.io/artist-event-and-rec/"
         />
-        <Project />
+        <Project
+          image={chatoramaPic}
+          projectName="Chatorama - Live Chatrooms"
+          repoLink="https://github.com/KevinPXu/Chatorama"
+          siteLink=""
+        />
         <Project />
         <Project />
       </div>

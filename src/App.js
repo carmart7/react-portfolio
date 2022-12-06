@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Resume from './components/Resume';
 
 function App() {
   // state that determines which portion of content is loaded at the bottom of the page
@@ -25,8 +26,7 @@ function App() {
     } else if (currentContent === 'contact') {
       return <Contact />
     } else if (currentContent === 'resume') {
-      return <h2>Resume page</h2>
-      // return <Resume />
+      return <Resume />
     }
   }
 
