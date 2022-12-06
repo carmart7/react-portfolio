@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
-import About from './components/About'
-import Projects from './components/Projects'
+import About from './components/About';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 function App() {
   // state that determines which portion of content is loaded at the bottom of the page
@@ -22,8 +23,7 @@ function App() {
     } else if (currentContent === 'projects') {
       return <Projects />
     } else if (currentContent === 'contact') {
-      return <h2>Contact page</h2>
-      // return <Contact />
+      return <Contact />
     } else if (currentContent === 'resume') {
       return <h2>Resume page</h2>
       // return <Resume />
@@ -32,10 +32,13 @@ function App() {
 
   return (
     <>
-      <Header currentContent={currentContent} setCurrentContent={setCurrentContent} />;
-      <main>
-        {returnContent()}
-      </main>
+      <div className='wrapper'>
+        <Header currentContent={currentContent} setCurrentContent={setCurrentContent} />
+        <main>
+          {returnContent()}
+        </main>
+      </div>
+      {/* include footer outside of wrapper eventually */}
     </>
   )
 }

@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { FaGithub } from "react-icons/fa";
 
 
 
 export default function Project({ image, projectName, repoLink, siteLink }) {
-    const [hover, setHover] = useState(false);
     return (
         <div className='col-5 project-box' style={{ backgroundImage: `url(${image})`}}>
             <h3>{projectName}</h3>

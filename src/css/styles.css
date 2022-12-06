@@ -46,3 +46,7 @@ main {
     opacity: 100%;
     transition: opacity 1s;
 }
+
+.text-centered {
+    text-align: center;
+}
