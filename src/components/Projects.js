@@ -2,6 +2,7 @@ import React from 'react';
 import Project from './Project';
 import soundsLikePic from '../images/soundsLike.png';
 import chatoramaPic from '../images/chatters.png';
+import glassifyPic from '../images/glassifylogo.png';
 
 export default function Projects() {
     return (
@@ -20,7 +21,12 @@ export default function Projects() {
           repoLink="https://github.com/KevinPXu/Chatorama"
           siteLink=""
         />
-        <Project />
+        <Project
+        image={glassifyPic}
+        projectName="Glassify"
+        repoLink="https://github.com/teedaa/glassify"
+        siteLink="https://glassify.herokuapp.com/" 
+        />
         <Project />
       </div>
     );
