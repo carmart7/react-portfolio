@@ -6,7 +6,8 @@ import './css/styles.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
+
 const root = createRoot(document.getElementById('root'));
 root.render(<App />);
 
-serviceWorkerRegistration.unregister();
+serviceWorkerRegistration.register();
