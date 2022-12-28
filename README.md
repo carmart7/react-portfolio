@@ -8,7 +8,11 @@ Displayed below is the projects page for my site.
 
 ![Image of portfolio projects page](./images/projectsPage.png)
 
-You can access the rest of the site by clicking the deployed link below and navigating the site using the nav bar
+You can access the rest of the site by clicking the deployed link below and navigating the site using the nav bar.
+
+## Deployed 
+
+[Live Site](https://carmart7.github.io/react-portfolio/)
 
 ## Technologies Used
 
